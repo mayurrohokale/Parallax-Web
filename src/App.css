@@ -52,7 +52,23 @@
   transform: translate(-50%, -50%);
   background: gray;
   color: white;
-  border-radius: 20px;
+  border-radius: 2px;
+  padding: 5px;
  
   display: flex;
+}
+
+.text-button {
+  font-size: 30px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  top: 60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: gray;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
 }
