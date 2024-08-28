@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.content{
+  height: 100vh;
+}
+
+.text-conten {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: gray;
+  color: white;
+  border-radius: 20px;
+  font-size: 50px;
+}

@@ -1,17 +1,17 @@
-export default function Home(){
+import { Parallax } from "react-parallax";
+import hill from "../components/hill1.png";
 
-    return(
-       <div>
-          <div className="min-h-screen flex justify-center items-center bg-sea bg-no-repeat bg-fixed" >
-            <h1 className="text-6xl font-bold text-white">Sea Parallax</h1>
-          </div>
-          <div className="justify-center flex items-center mt-36">
-            <h2>Sample Section</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.
-            </p>
-          </div>
-       </div>
-    )
+export default function Home() {
+  return (
+    <div>
+      <Parallax strength={600} bgImage={hill}>
+        <div className="content">
+          <div className="text-content">Normal Content</div>
+        </div>
+      </Parallax>
+      <div className="content">
+
+      </div>
+    </div>
+  );
 }
